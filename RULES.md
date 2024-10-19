@@ -1,20 +1,32 @@
-# Hackathon Rules
-<!-- This is a sample set of rules. Feel free to add new rules or remove any existing ones. -->
+# CRAFT-N-CODE Hackathon Rules
 
-* Hackers must form a team of 1 - 4 members. Solo hackers are allowed, however, building a team is encouraged.
+1. **Team Formation:**  
+   - Teams must consist of 2-4 members.  
 
-* The hackathon will start at **<START DATE AND TIME>** and end at **<END DATE AND TIME>**, you work on your hack during the allotted time only. Older projects will not be allowed. We will require you to build your project on the hackathon weekend.
+2. **Hackathon Duration:**  
+   - The hackathon will begin on **23rd October at 6 PM** and conclude on **24th October at 6 PM**.  
+   - Work on your project strictly within this 24-hour period. Pre-existing projects or solutions will not be accepted.  
 
-* There are *X* themes of the hackathon, you must submit a hack that is in one of these themes.
+3. **Solution Requirements:**  
+   - Your solution must align with the provided problem statements related to the theme, *Food Safety Monitoring*.  
 
-* Hackers are not allowed to work on multiple teams and/or submit multiple projects. Hackers must be a part of only one team and one project.
-  
-* Only one member from the team will submit the project. They must add the contact details of all other team members in the submission.
+4. **Tracks:**  
+   - There are **3 tracks** for this hackathon. Your project should fall under one of these tracks, which will be specified during the online meeting.  
 
-* Once the hackathon starts, you will get an option to submit your hack, you can submit as many times as you want, the last hack will be considered as the final submission.
+5. **Team and Project Limitations:**  
+   - Each participant is only allowed to be a member of one team and contribute to one project.  
+   - Teams must not submit multiple projects.  
 
-* Your hack must be developed entirely during the Hackathon duration. You may use open-source libraries and other freely available systems/services such as public cloud platforms, APIs, etc.
+6. **Project Submission:**  
+   - Only one member from each team will submit the project. The submission should include the contact details of all other team members.  
+   - You may submit your project multiple times, but only the last submission before the deadline will be considered final.  
 
-* The intellectual property of your code belongs only to your team.
+7. **Development Restrictions:**  
+   - Your project must be developed entirely during the hackathon.  
+   - Usage of open-source libraries, public cloud platforms, APIs, and other freely available services is allowed.  
 
-* By participating in the hackathon, you agree to the [Code of Conduct](CODE_OF_CONDUCT.md).
+8. **Intellectual Property:**  
+   - The intellectual property rights of the code remain with your team.  
+
+9. **Code of Conduct:**  
+   - By participating, you agree to abide by the [Code of Conduct](CODE_OF_CONDUCT.md). Any violation may result in disqualification.
