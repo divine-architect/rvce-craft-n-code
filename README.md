@@ -8,7 +8,7 @@
   * [Prizes](#prizes)
   * [Judging Parameters](#judging-parameters)
   * [How To Submit Your Project?](#how-to-submit-your-project)
-    + [Video Tutorial - How To Submit Your Project?](video-tutorial---how-to-submit-your-project)
+    + [Video Tutorial - How To Submit Your Project?](#video-tutorial---how-to-submit-your-project)
   * [Rules and Code of Conduct](#rules-and-code-of-conduct)
 
 ---
