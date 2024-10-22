@@ -1,7 +1,7 @@
 
 ## Table Of Contents
 
-- [Craft-n-Code Hackathon: This is Statelevel Hackathon organized by RVCE Coding Club and IIIT Bhubaneshwar.](#xyz-hackathon-example-hackathon-description)
+- [Craft-n-Code Hackathon](#xyz-hackathon-example-hackathon-description)
   * [About The Hackathon](#about-the-hackathon)
   * [Timeline](#timeline)
   * [Tracks](#tracks)
@@ -11,80 +11,47 @@
     + [Video Tutorial - How To Submit Your Project?](video-tutorial---how-to-submit-your-project)
   * [Rules and Code of Conduct](#rules-and-code-of-conduct)
 
-## Steps To Use This Repo 
-
-
-* Click on [**Use this template**](https://github.com/adityaoberai/hackathon-submissions-repo-template/generate) to generate a copy of the repository for your hackathon.
-<a href="https://github.com/adityaoberai/hackathon-submissions-repo-template/generate" target="_blank">
-  <img width="94" alt="image" src="https://user-images.githubusercontent.com/31401437/170708931-be980535-a6fe-4540-a8d1-9515059f5d9c.png">
-</a>
-
-* Visit the [Issue Form for Hackathon Submissions](.github/ISSUE_TEMPLATE/submission.yaml) and edit it to your comfort. [*(Guide)*](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms)
-
-> *Note: In order to use the Hackathon Submissions Issue Form, your repository must be public.*
-
-* Add new **Issue Labels** (and remove the existing ones) so that the list looks as follows. [*(Guide)*](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)
-<img width="921" alt="image" src="https://user-images.githubusercontent.com/31401437/170709980-6b54a747-789c-41a5-9ed0-f398bbb767b9.png">
-
-* Edit the **Example Hackathon Description** to add/update all the necessary details regarding your hackathon.
-
-* Edit the [Code of Conduct](CODE_OF_CONDUCT.md) to add details of the organizers and the hackathon.
-
-* Review (and update) the [Rules](RULES.md) to add your own set of rules for the hackathon.
-
-* Remove the contents of the Readme before the hackathon description.
-
-
 ---
 
-# XYZ Hackathon: Example Hackathon Description
+# Craft-N-COde Hackathon:
 
 ## About The Hackathon
 
-XYZ Hackathon is a 48-hour digital hackathon where young minds possessing a passion for solving real-life problems come together to build innovative solutions. Whether you are a beginner or an expert coder, here is the perfect chance to hone your skills and witness the competitive yet inclusive developer community around you!
+Craft-N-Code is 24 hour online hackathon organized by RVCE Coding Club and IIIT Bhubaneshwar. The hackathon focuses on majorly building a project idea into MVP in just 24 hours. The idea of hackathon is make sure that a Project on a given Idea goes from ideation to actually project building. The theme for the hackathon is AI and Bug Data for food safety.
 
 Learn new technologies, enhance your team management and presentation skills, and get mentored by experts- all in one place!
 
 ## Timeline
 
-* **Start Date and Time:** 1st January 2022 at 11:00 AM IST
-* **Start Date and Time:** 3rd January 2022 at 11:00 AM IST
+* **Start Date and Time:** 23rd October 2024 at 10:00 PM IST
+* **Start Date and Time:** 24th October 2024 at 10:00 PM IST
 
 ## Tracks
 
-* Track 1
+* Regulatory Compliance in Food safety
 
-> Description of Track 1
+> Food is processed and procured at multiple stages. The aim of project is to Ensure food producers comply with standards. Manual monitoring is difficult when dealing with scale. Therefore use AI and Big Data to Automate the compliance issue.
 
-* Track 2
+* Food Safety Auditing Automation
 
-> Description of Track 2
+> Manual auditing can be slow, error-prone, and resource-intensive. Continuous and automated systems are needed. AI and data analytics automate and scale audits.
 
-* Track 3
+* Sustainable and Safe Food Supply Chains
 
-> Description of Track 3
+> Sustainable food chains need safety. Issues: traceability, waste, and contamination. Use AI and Big Data to optimize and secure the chain.
 
-* Track 4
-
-> Description of Track 4
 
 ## Prizes
 
-* **1st Prize**
+* **Top 2 Teams**
 
->* Cash worth $500
->* XYZ Hackathon Swags
+>* Get chance to parcticipate in D3 technocultural fest of the IIIT Bhubaneshwar for National level hackathon. All expense covered trip.
+
+* Other teams 
+>* On completion of project and submitting of PR. Certificate of participation for all the team and team members
 
 
-* **2nd Prize**
 
->* Cash worth $300
->* XYZ Hackathon Swags
-
-* **3rd Prize**
-
->* Cash worth $100
->* XYZ Hackathon Swags
 
 ## Judging Parameters
 
