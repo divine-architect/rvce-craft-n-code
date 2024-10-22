@@ -1,7 +1,7 @@
 
 ## Table Of Contents
 
-- [R Hackathon: Example Hackathon Description](#xyz-hackathon-example-hackathon-description)
+- [Craft-n-Code Hackathon: This is Statelevel Hackathon organized by RVCE Coding Club and IIIT Bhubaneshwar.](#xyz-hackathon-example-hackathon-description)
   * [About The Hackathon](#about-the-hackathon)
   * [Timeline](#timeline)
   * [Tracks](#tracks)
