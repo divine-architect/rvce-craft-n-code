@@ -1,13 +1,7 @@
-# Hackathon Submissions Platform Template
-
-Here's a template repo for you to generate a submission platform for your hackathon for free on GitHub.
 
 ## Table Of Contents
 
-- [Hackathon Submissions Platform Template](#hackathon-submissions-platform-template)
-  * [Steps To Use This Repo](#steps-to-use-this-repo)
-  * [Exporting Submission Links](#exporting-submission-links)
-- [XYZ Hackathon: Example Hackathon Description](#xyz-hackathon-example-hackathon-description)
+- [R Hackathon: Example Hackathon Description](#xyz-hackathon-example-hackathon-description)
   * [About The Hackathon](#about-the-hackathon)
   * [Timeline](#timeline)
   * [Tracks](#tracks)
@@ -40,93 +34,6 @@ Here's a template repo for you to generate a submission platform for your hackat
 
 * Remove the contents of the Readme before the hackathon description.
 
-## Exporting Submission Links 
-
-If you want export all submission links to a CSV file, follow the following steps:
-
-* Install `Python 3.x` on your system.
-
-* Create a folder to store your submissions CSV.
-
-* Enter the folder, create a file `script.py` and add the following code:
-
-```python
-"""
-Inspired by script the created by prateek032: https://gist.github.com/prateek032/06273e179bb034800c61
-"""
-
-import csv
-import requests
-import json
-
-REPO = ""  # format is username/repo
-ISSUES_FOR_REPO_URL = "https://api.github.com/repos/%s/issues" % REPO
-arg = "?state=all"
-
-# Since the hackathon repos must be public (to allow issue forms), username and password are not necessary.
-
-
-def write_issues(r):
-    "output a list of issues to csv"
-    if not r.status_code == 200:
-        raise Exception(r.status_code)
-    for issue in r.json():
-        Tag = []
-        labels = issue["labels"]
-        for label in labels:
-            Tag.append(label["name"])
-
-        if "issues" in issue["html_url"]:
-            csvout.writerow(
-                [
-                    issue["number"],
-                    issue["title"],
-                    Tag,
-                    issue["state"],
-                    issue["created_at"],
-                    issue["html_url"],
-                ]
-            )
-
-
-r = requests.get(ISSUES_FOR_REPO_URL + arg)
-
-csvfile = "%s-issues.csv" % (REPO.replace("/", "-"))
-csvfileo = open(csvfile, "w")
-csvout = csv.writer(csvfileo)
-csvout.writerow(["Id", "Title", "Tag", "State", "Open Date", "URL"])
-
-write_issues(r)
-
-# more pages? examine the "link" header returned
-if "link" in r.headers:
-    pages = dict(
-        [
-            (rel[6:-1], url[url.index("<") + 1 : -1])
-            for url, rel in [link.split(";") for link in r.headers["link"].split(",")]
-        ]
-    )
-
-    while "last" in pages and "next" in pages:
-        r = requests.get(pages["next"], auth=AUTH)
-        write_issues(r)
-        if pages["next"] == pages["last"]:
-            break
-        pages = dict(
-            [
-                (rel[6:-1], url[url.index("<") + 1 : -1])
-                for url, rel in [
-                    link.split(";") for link in r.headers["link"].split(",")
-                ]
-            ]
-        )
-
-csvfileo.close()
-```
-
-* Open your shell in the same folder and run the command `pip install requests` followed by `python script.py`.
-
-* You should have a CSV file with all the submissions in your folder.
 
 ---
 
