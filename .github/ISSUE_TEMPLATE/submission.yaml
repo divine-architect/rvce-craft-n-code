@@ -16,7 +16,7 @@ body:
     validations:
       required: true
   - type: input
-    id: Team Name
+    id: team-name
     attributes:
       label: Team Name
       description: Enter your team name
@@ -35,7 +35,7 @@ body:
     id: team-emails
     attributes:
       label: Email Addresses of Team Members
-      description: Enter the email addresses of you team members separated by commas (if you have any)
+      description: Enter the email addresses of your team members separated by commas (if you have any)
       placeholder: foo1@bar.com, foo2@bar.com, foo3@bar.com,...
     validations:
       required: false
