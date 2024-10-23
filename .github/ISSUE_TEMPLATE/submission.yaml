@@ -16,6 +16,14 @@ body:
     validations:
       required: true
   - type: input
+    id: Team Name
+    attributes:
+      label: Team Name
+      description: Enter your team name
+      placeholder: Team Name
+    validations:
+      required: true
+  - type: input
     id: email
     attributes:
       label: Email Address
