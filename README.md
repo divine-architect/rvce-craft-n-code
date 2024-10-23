@@ -23,8 +23,8 @@ Learn new technologies, enhance your team management and presentation skills, an
 
 ## Timeline
 
-* **Start Date and Time:** 23rd October 2024 at 10:00 PM IST
-* **Start Date and Time:** 24th October 2024 at 10:00 PM IST
+* **Start Date and Time:** 23rd October 2024 at 6:30 PM IST
+* **Start Date and Time:** 24th October 2024 at 6:30 PM IST
 
 ## Tracks
 
